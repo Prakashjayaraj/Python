@@ -1,6 +1,0 @@
-name = input("enter your name : ")
-leave = input("enter your leave balances")
-year = input("enter the year: ")
-print( "Dear\t "+ name)
-print("your leave balance is "+ leave)
-print("year is :"+ year)
