@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>learning</title>
+</head>
+<body>
+   <script>
+      // creating a javascript object:-
+     var user =new Object();
+     user.name = "prakash";
+     user.age = 25;
+     document.write("My name is " + user.name + ". Age is " + user.age);
+
+     // creating a javascript string:-
+
+     var name = { name : "prakash", age : 24}
+     document.write( name.name+  name.age);
+     var namee = { "name" : "prakash", "age" : 24}
+     document.write( namee.name+  namee.age);
+
+     var det = {
+    firstname: "arun",
+    lastname: "kumar",
+    fullname : function () {
+        return this.firstname + " " + this.lastname;
+    }
+    
+};
+document.write("Full name is " + det.fullname());
+
+
+
+var str = '{"name": "prakash", "age": 25}';
+alert(typeof(str));
+
+var p = JSON.parse(str);
+document.write(p.name + " " + p.age); // Corrected line for accessing properties
+
+</script>
+</body>
+</html>
+
